@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Иван Иванов",
+      "email": "ivan@example.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Мария Смирнова",
+      "email": "maria@example.com",
+      "password": "securepass",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Настроить CI/CD",
+      "description": "Настроить автоматический деплой",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": 1,
+      "queueId": 1
+    },
+    {
+      "id": 2,
+      "title": "Разработка UI для авторизации",
+      "description": "Создать форму логина и регистрации",
+      "status": "in_progress",
+      "priority": "medium",
+      "assignedTo": 2,
+      "queueId": 2
+    }
+  ],
+  "queues": [
+    {
+      "id": 1,
+      "name": "Разработка Backend"
+    },
+    {
+      "id": 2,
+      "name": "Фронтенд UI"
+    }
+  ],
+  "dashboards": [
+    {
+      "id": 1,
+      "name": "Kanban-доска",
+      "columns": ["todo", "in_progress", "done"]
+    }
+  ]
+}
